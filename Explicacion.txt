@@ -1,0 +1,91 @@
+SOBRE EL REPRODUCTOR DEL HOME
+
+1. MAX 7 VIDEOS: El reproductor del HOME admite máximo 7 videos (para que admita mas ir a la clase .vid-list y aumentar como mínimo el width en 168px)
+
+2. AGREGAR NUEVO VIDEO: 
+
+--------------------------------------------------------------------------------------
+
+
+
+2.1 hay que cambiar el data-src="". ¿Como? Ve a cualquier video de YouTube > Compartir > INSERTAR y aparecerá un código del cual tienes que copiar lo que pone dentro
+de src="" y pegarlo en las comillas de data-src="". IMPORTANTE: copia este nuevo enlace hasta la INTERROGACION del data-src para no borrar el autoplay=1;rel=0...
+
+2.2 en la etiqueta <img> hay que cambiar el src de la siguiente manera: en cualquier video de YouTube, ANTES de clicar para reproducirlo y que te lleve a la página de
+ese video, le das a click derecho sobre LA IMAGEN del video, y a "Inspeccionar" (ultima opcion). La parte que se iluminará de azul del código será una etiqueta <img> (si no, el click derecho no se ha hecho sobre la imagen del video).
+Solo queda copiar el src de esa IMAGEN del video de youtube y pegala en nuestro src de nuestra etiqueta <img>
+
+2.3 por ultimo, pon el nombre que quieras que aparezca debajo del video como en el ejemplo de abajo "#StopMannequinChallenge "COMUNICADO""
+ 
+
+EJEMPLO DEL CÓDIGO DE 1 VIDEO DEL HOME
+
+<div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/qHPEUqtMDVc?autoplay=1;rel=0;showinfo=0;autohide=1">
+
+	<div class="thumb"> 
+		<i class="fa fa-play-circle-o play-icon"></i>
+		<img src="https://i.ytimg.com/vi/qHPEUqtMDVc/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD-5bKzmIzuAmRnhDRlYqo_OMcIeg">
+	</div>
+                        
+	<div class="desc">#StopMannequinChallenge "COMUNICADO"</div>
+                    
+</div>
+
+
+
+----------------------------------------------------------------------------------------
+
+3. NOMBRE VIDEO: si por un casual resulta que el nombre del video sobresale del recuadro, ve a la clase .vid-item y simplemente aumenta el height hasta que se vea (afectará a todos los videos de la HOME)
+
+
+
+
+SOBRE LAS FRASES ALEATORIAS
+
+1. ve a peromingofunc.js > pulsa CTRL + F > escribe "frases" (te dirigirá a una linea de codigo que pondrá let frases =...) > añade una nueva frase al final de los corchetes con una coma y comillas simples tal que asi -> ,'"Oh Damn."' <-
+
+No hay que hacer nada mas =)
+
+
+
+
+SOBRE LOS VIDEOS DE LA SECCION TRABAJOS
+
+MUY IMPORTANTE: debe haber 3 videos como máximo o MENOS por cada <span class="scroll-born"></span> para que funcione correctamente.
+
+----------------------------------------------------------------------------------------
+
+
+
+1. AGREGAR UN VIDEO:
+
+1.1 hay que cambiar el src="" del iframe. ¿Como? Ve a cualquier video de YouTube > Compartir > INSERTAR y aparecerá un código del cual tienes que copiar lo que pone dentro
+de src="" y pegarlo en las comillas de src="" de nuestro iframe. IMPORTANTE: copia este nuevo enlace hasta la INTERROGACION del data-src para no borrar el rel=0;showinfo=0...
+
+1.2 por ultimo, pon el nombre que quieras que aparezca debajo del video como en el ejemplo de abajo "Blue 24/7"
+ 
+
+EJEMPLO DEL CÓDIGO DE 1 VIDEO DE LA SECCION TRABAJOS
+
+<div class="vid-item-trabajos">
+                        
+	<iframe class="video-trabajo" src="https://www.youtube.com/embed/qPAW4_2x04o?rel=0;showinfo=0;autohide=1" frameborder="0"
+ allowfullscreen></iframe>
+                        
+	<span class="title-vid-trabajo">Blue 24/7</span>
+                        
+	<div class="separator-trabajos-div">
+                            
+		<hr class="separator-trabajos">
+                            
+		<span class="ficha-vid-trabajo"><a href="#">Ver ficha tecnica</a></span>
+                        
+	</div>
+                    
+</div>
+
+PUEDE HABER 3 O MENOS DE ESTOS BLOQUES (class="vid-item-trabajos") POR CADA <span class="scroll-born"></span>
+
+
+
+----------------------------------------------------------------------------------------

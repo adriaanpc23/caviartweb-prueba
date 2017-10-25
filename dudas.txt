@@ -1,0 +1,2 @@
+1. ¿el logo que te lleva a la HOME tambien está en trabajos?
+2. Las frases aleatorias no estan en una BD

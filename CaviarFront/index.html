@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Caviart</title>
+
+    <!-- Icono de la Web -->
+    <link rel="icon" href='img/logo_caviart_fondo.png' type="image/x-icon" />
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/caviart.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/peromingostyle.css">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!--Funcionalidad de la web-->
+    <script src="js/peromingofunc.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--NAVEGACION-->
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+            <div class=" navbar navbar-center navbar-main">
+                <ul class="nav navbar-nav row-peromingo">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="caviart-scroll text-left" href="#quienes">Quienes</a>
+                    </li>
+                    <li>
+                        <a class="caviart-scroll text-center" href="#trabajos">Trabajos</a>
+                    </li>
+                    <li>
+                        <a class="caviart-scroll text-right" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header id="cabecera">
+        <div class="container">
+            <div id="div_reproductor" class="vid-container">
+                <img id="logo_caviart" src="img/logo_caviart_trans.png" alt="Logo Caviart">
+            </div>
+            <div class="separator">
+                <h2 id="titulo_video"></h2>
+            </div>
+            <div class="vid-list-container">
+                <!--maximo de videos = 7-->
+                <div class="vid-list">
+                    <!--agregar 't=11s' al final del data-src para que empiece en el segundo que le indiques
+                            agregar '?autoplay=1' para reproducir directamente (autoplay=0 = no)-->
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/qHPEUqtMDVc?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/qHPEUqtMDVc/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD-5bKzmIzuAmRnhDRlYqo_OMcIeg">
+                        </div>
+                        <div class="desc">Stop Mannequin Challenge "COMUNICADO"</div>
+                    </div>
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/eRSCqCVQOUg?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/eRSCqCVQOUg/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCoxck5qoLV0ioolI7nGkBjTtEJQw">
+                        </div>
+                        <div class="desc">#StopMannequinChallenge "REVOLUCIÓN"</div>
+                    </div>
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/eRSCqCVQOUg?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/eRSCqCVQOUg/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCoxck5qoLV0ioolI7nGkBjTtEJQw">
+                        </div>
+                        <div class="desc">#StopMannequinChallenge "REVOLUCIÓN"</div>
+                    </div>
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/qPAW4_2x04o?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/qPAW4_2x04o/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDAG5adkZftTq060ShR_xUU5I1XTQ">
+                        </div>
+                        <div class="desc">Blue 24/7</div>
+                    </div>
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/YPHCKuQMfgM?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/YPHCKuQMfgM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB6Vql411ram7LaKJgzzEPdFKK_dQ">
+                        </div>
+                        <div class="desc">A tiros</div>
+                    </div>
+
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/HKxAchTw95s?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/HKxAchTw95s/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAeNguTIMFNw2KeaUa_q90wdZuLzA">
+                        </div>
+                        <div class="desc">Quien no pierde no gana</div>
+                    </div>
+
+                    <div class="vid-item scaleIn scaleOut" data-src="https://www.youtube.com/embed/LYpSgczkchE?autoplay=1;rel=0;showinfo=0;autohide=1">
+                        <div class="thumb">
+                            <i class="fa fa-play-circle-o play-icon"></i>
+                            <img src="https://i.ytimg.com/vi/LYpSgczkchE/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCjDXwwSfwy83DLmBg9Gl_WuJ3xtg">
+                        </div>
+                        <div class="desc">Reel Eventos Caviart</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="arrows">
+                <div class="arrow-left">
+                    <i class="fa fa-chevron-left fa-lg"></i>
+                </div>
+                <div class="arrow-right">
+                    <i class="fa fa-chevron-right fa-lg"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="quienes" class="container content-section text-center">
+        <div class="row-peromingo cabecera-seccion">
+            <div class="div-nombre-seccion">
+                <p class="nombre-seccion">Quienes</p>
+            </div>
+            <div class="div-logo-seccion">
+                <a href="#page-top">
+                    <img src="img/logo_caviart_pez.png" class="logo-seccion">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p id="random-frase">"por eso fuma, fuma fuma sólo vuela"</p>
+            </div>
+        </div>
+        <div class="row texto-quienes">
+            <div class="col-xs-12">
+                <p style="font-size:26px">Productora independiente con base en Madrid
+                    <br>Soluciones para todo tipo de problemas de comunicación
+                    <br>Caviar a precio de lumpo
+                    <br>
+                    <span style="font-size:large">No producimos caviar</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajos Section -->
+    <section id="trabajos" class="container content-section text-center">
+        <div class="row">
+            <div class="col-xs-12">
+                <div href="#page-top" class="div-logo-seccion">
+                </div>
+            </div>
+        </div>
+        <div class="row-peromingo cabecera-seccion">
+            <div class="div-nombre-seccion">
+                <p class="nombre-seccion">Trabajos</p>
+            </div>
+            <div class="div-logo-seccion">
+                <a href="#page-top">
+                    <img src="img/logo_caviart_pez.png" class="logo-seccion">
+                </a>
+            </div>
+        </div>
+        <div class="column" id="div_filtros">
+            <div>
+                <div class="input-group stylish-input-group row-peromingo" id="div_busqueda">
+                    <input id="busqueda" type="text" class="form-control" placeholder="Buscar título">
+                    <i class="glyphicon glyphicon-search"></i>
+                </div>
+                <p id="nofound">No se han encontrado resultados en la búsqueda</p>
+            </div>
+            <div>
+                <div class="dropdown clearfix" id="categorias">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="categoriasDown" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
+                        <span id="categoria-seleccionada">Lo más visto</span>
+                        <span class="caret"></span>
+                    </button>
+                    <ul id="lista-orden" class="dropdown-menu" aria-labelledby="categoriasDown">
+                        <li>Lo más visto</li>
+                        <li>Lo más nuevo</li>
+                        <li>Alfabéticamente</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="download-section">
+            <div class="container">
+                <div class="row-peromingo" style="clear: both;">
+                    <!--1 SPAN por cada 3 o MENOS vid-item-trabajos (o sea a ser videos)-->
+                    <span class="scroll-born"></span>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/qHPEUqtMDVc?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">#StopMannequinChallenge "COMUNICADO"</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/qPAW4_2x04o?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7
+                            24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7 Blue 24/7</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/YPHCKuQMfgM?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">A tiros</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <!--1 SPAN por cada 3 o MENOS vid-item-trabajos (o sea a ser videos)-->
+                    <span class="scroll-born"></span>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/HKxAchTw95s?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">Quien no pierde no gana</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/LYpSgczkchE?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">Reel Eventos Caviart</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/eRSCqCVQOUg?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">#StopManne</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <!--1 SPAN por cada 3 o MENOS vid-item-trabajos (o sea a ser videos)-->
+                    <span class="scroll-born"></span>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/eRSCqCVQOUg?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">#StopMannequinChallenge "REVOLUCIÓN"</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="vid-item-trabajos">
+                        <iframe class="video-trabajo" src="https://www.youtube.com/embed/eRSCqCVQOUg?rel=0;showinfo=0;autohide=1" frameborder="0"
+                            allowfullscreen></iframe>
+                        <span class="title-vid-trabajo">#StopMannequinChallenge "REVOLUCIÓN"</span>
+                        <div class="separator-trabajos-div">
+                            <hr class="separator-trabajos">
+                            <span class="ficha-vid-trabajo">
+                                <a href="#">Ver ficha tecnica</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="contact-background" class="col-xs-12" style="padding:0px">
+        <!-- Contact Section -->
+        <section id="contact" class="container content-section text-center" style="margin-top:100px; padding-top:100px;margin-bottom:100px; padding-bottom:100px">
+            <div class="row-peromingo cabecera-seccion">
+                <div class="div-nombre-seccion">
+                    <p class="nombre-seccion">Contacto</p>
+                </div>
+                <div class="div-logo-seccion">
+                    <a href="#page-top">
+                        <img src="img/logo_caviart_pez.png" class="logo-seccion">
+                    </a>
+                </div>
+            </div>
+            <div class="column" id="formulario-caviart">
+                <p class="col-xs-6 formulario-text">¿Quieres estar al día de nuestras novedades?</p>
+                <div class="input-group stylish-input-group col-xs-6" id="div_correo_suscripcion">
+                    <input id="correo_suscripcion" type="text" class="form-control" placeholder="suscribete_aqui@gmail.com">
+                </div>
+                <button type="button" class="btn btn-default col-xs-6" value="enviar" id="enviarSuscri">Enviar</button>
+                <p id="correo" class="col-xs-6">
+                    <strong>caviart.mail@gmail.com</strong>
+                </p>
+            </div>
+            <div class="row-peromingo" id="contact-data">
+                <div id="telefono">
+                    <span>675 85 85 92</span>
+                </div>
+                <div>
+                    <a id="fb-icon" href="https://www.facebook.com/caviart.oficial/">
+                        <i class="fa fa-facebook-official" style="font-size: 50px"></i>
+                    </a>
+                    <a id="youtube-icon" href="https://www.youtube.com/channel/UC_frVKrqhdtNSmPy2BIJTqA/">
+                        <i class="fa fa-youtube" style="font-size: 50px"></i>
+                    </a>
+                    <a id="instagram-icon" href="https://www.instagram.com/caviart.oficial/">
+                        <i class="fa fa-instagram" style="font-size: 50px"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="col-xs-7" style="text-align:left; padding:0px; padding-top:25px">
+
+                </div>
+                <div id="icons" class="col-xs-5" style="padding-left:0px; padding-right: 0px; text-align: inherit;">
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Caviart 2017</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <style>
+    </style>
+
+</body>
+
+</html>

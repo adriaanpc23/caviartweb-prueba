@@ -1,0 +1,34 @@
+contacto
+tlfn y redes a la altura de contacto e icono
+formulario a la altura de contacto a la izq
+formulario contiene: input para escribir el correo (del color del fondo como buscar titulo)
+
+
+FICHA
+cambiar los logos de arriba por el pez centrado en medio y de tamaño como el logo de las secciones
+DENTRO DE LA FICHA
+poner el video en vez de la imagen
+sinopsis alineada al video
+casting titulo centrado despues de sinopsis
+datos personajes: nombre, edad, correo, img, personaje, breve descripcion
+
+
+
+
+
+
+
+
+caja de comentario con nombre o anonimo
+comentarios debajo de la caja
+
+
+TRABAJOS
+CAMBIARLO A UNA PAGINA APARTE
+
+
+
+
+
+FICHA
+¿FUENTES DE LETRA DE CADA COSA?

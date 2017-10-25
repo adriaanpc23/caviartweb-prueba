@@ -1,0 +1,74 @@
+Hola Adri, cómo va?
+
+Aquí te dejo una maquetación de las partes que queremos que compongan la Web de CAVIART.
+
+1.Principal: Esta sería la HOME. Los iconitos de abajo sería como un slider en el que poder elegir, entre varios (de 6 a 8 videos) el cortometraje que quieres ver. Una vez seleccionado el video, el logotipo CAVIART desaparecería para dejar paso al reproductor del video. 
+En un primer momento teníamos pensado que los videos se reprodujesen ahí, en la HOME. Sin embargo, nos estábamos planteando la posibilidad de que,  o bien, fuera un hipervinculo a Youtube o a la plataforma de turno o bien, que el reproductor de Youtube funcionase dentro de nuestra web. (Esto no se si lo he explicado bien. Pregúntame sin problema por WhatsApp)
+
+Las partes 2 y 3 estarían dentro de la HOME. Las letras de arriba (Quienes y Contacto) son "clics" que te deslizan hacia sus secciones correspondientes. Todo dentro de la Home, sin abrir otra pestaña.
+
+2. Quienes: Solo aparecería ese texto.  Quizás no sea ese el definitivo, pero sí algo breve y descriptivo. El logotipo de Caviart que tanto en 2. como en 3. aparece en la parte de arriba a la derecha de la pantalla, sirve para, mediante un click, subir  de nuevo a 1. Principal.
+
+3. Contacto: Aquí habría que hacer una base de datos con frases, para que cada vez que accedas a la página, aparezca una frase diferente. En ese caso: "por eso fuma, fuma fuma solo vuela". 
+
+4. Trabajos: Aquí aparecerían todos los trabajos que hemos ido subiendo. (En la HOME solo aparecerían los últimos 6-8, o los más populares).  Según vayamos descendiendo con el ratón, irán apareciendo nuevas hileras siempre con 3 cortos por fila.
+
+La lupa de arriba a la izquierda nos permitirá buscar un título concreto, y el logotipo de Caviart nos devolvería de nuevo a la HOME.
+
+
+
+
+Las preguntas que aparecen en la parte izquierda de la pantalla sería un formulario a rellenar por el visitante con el fin de añadirle a nuestras Newsletters.  Creemos que haría falta añadirle un pequeño detallito para aclarar que se trata de un formulario de Newsletter.
+
+En esta sección podemos clasificar los videos por: Lo más nuevo, lo más visto, por orden alfabético. Habría que decidir como aparecerían colocados por defecto. (o bien lo más reciente, o bien alfabéticamente). 
+
+
+
+5. Ficha individual: La idea sería que cada trabajo tuviese una ficha técnica con ciertos datos de la misma. Los datos siempre serían: Titulo, año de estreno, duración, temática,  una frase a modo de Sinopsis pero que nunca desvelará nada de la trama. Más bien son frases/declaraciones de alguien del equipo en algún momento a lo largo de transcurso del proyecto.  
+También aparecería el casting de los actores que interpretaron. 
+Pensábamos también en un sistema de valoración por estrellas (en este caso, botes de Caviart) pero nos comentaron el resto de informáticos que no era del todo viable. Nos interesa tu opinión al respecto =)
+Por último, permitir a los usuarios comentar sus impresiones acerca del corto que acaban de ver. 
+
+La idea de estas fichas era que fuesen sencillas de gestionar por parte del equipo CAVIART, añadir nuevas, modificar las existentes, clasificarlas, posicionarlas (SEO), etc.
+
+
+Y nada, esto sería a grandes rasgos el proyecto de nuestra web.
+Cualquier duda o comentario acerca de posibles alternativas, por favor, coméntanoslo de una. 
+Espero conocerte pronto. 
+
+hasta entonces, cuídate.
+
+Miguel 
+
+
+
+HECHO
+
+1. HOME con reproductor en la propia pagina a seleccionar 7 videos
+2. LOGOS te dirigen arriba de la pagina (a HOME)
+3. FRASES aleatorias: en vez de una BD he hecho un array con 3-4 frases. Selecciona 1 aleatoriamente al entrar a la pagina
+4. TRABAJOS: aparecen de 3 en 3 (falta animacion).
+
+FALTA
+
+1. TRABAJOS: Clasificar los videos por: lo más nuevo, lo más visto o por orden alfabético. Definir orden por defecto
+2. FORMULARIO: ¿que contiene concretamente? - ¿Eres empresa? ¿Eres un ser humano? Email Cuentanos Acepto la política de privacidad Quiero estar al tanto de nuevos proyectos
+3. LUPA: ¿cuál es el lugar de la lupa en la página?¿Arriba del todo con "QUIENES", "TRABAJOS", "CONTACTO" en la izquierda, o en la seccion de trabajos en la izquierda?
+
+4. FICHA TÉCNICA TRABAJOS: IMG previa del video, titulo, año de estreno, duracio, tematica y frase (sinopsis). Casting de los actores. Valorarlo con 5 estrellas (¿Botes de Caviart posible?)
+5. COMENTARIO AL CORTO: ¿Estaría dentro de la ficha técnica del video?¿El comentario es para verlo vosotros o que se quede en la página rollo como en YouTube?
+
+
+6. EXPLICACIONES: dejar explicado todo lo necesario para que Caviart modifique lo que quiera de la página en un futuro.
+
+
+CASTING
+VideoUrl
+nombre
+edad
+personaje
+descripcion
+
+BD
+Nombre usuario: CaviartClient
+password usuario: 123clientecaviart123
